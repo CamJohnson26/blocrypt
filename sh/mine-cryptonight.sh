@@ -1,3 +1,4 @@
+#!/bin/bash 
 # Parameters
 # $1: pool url
 # $2: username
