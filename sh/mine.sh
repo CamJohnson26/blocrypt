@@ -4,5 +4,5 @@
 # May want to migrate nohup to screen
 
 sudo ./stop-mine.sh
-sudo cp "~/archive/mining-$(date).log" ~/mining.log > /dev/null
+sudo mv ~/mining.log "~/archive/mining-$(date).log" > /dev/null
 nohup sudo ~/Desktop/mine-$1.sh > ~/mining.log 2>&1 &
