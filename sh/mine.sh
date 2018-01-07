@@ -5,4 +5,4 @@
 
 sudo ./stop-mine.sh
 sudo mv ~/mining.log ~/archive/"mining-$(date).log" > /dev/null
-nohup sudo ~/Desktop/mine-$1.sh > ~/mining.log 2>&1 &
+nohup sudo ./mine-$1.sh > ~/mining.log 2>&1 &
