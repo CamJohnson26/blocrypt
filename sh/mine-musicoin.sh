@@ -4,4 +4,4 @@
 # $2: Username
 # $3: Password
 
-./mine-ethash.sh us-east.ethash-hub.miningpoolhub.com:20585 darthmaedhros:x 0
+./mine-ethash.sh us-east.ethash-hub.miningpoolhub.com:20585 darthmaedhros 0
